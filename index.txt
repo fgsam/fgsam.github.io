@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <title>Биографические данные</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+ 
+<body>
+ 
+<div id="container">
+	<div id="header">
+<h2>Биографические данные</h2>
+	</div>
+
+		 
+	<div id="menu">
+<img src='photo.jpg' />
+
+	<h2>Сергей Ревуцкий</h2>
+<div class = "line0"></div>
+<div class = "line1"></div>
+<div class = "line2"></div>
+             <p><sup>Контакты:</sup></p>		
+</div>
+		 
+	<div id="content">
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;<b>Дата рождения:</b></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;12 октября 1983</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>Место рождения: </b></p>
+                <pre>  Киев 
+                               </pre> 
+<div class = "line"></div>
+                 <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>Soft skills:</b></p>
+                 <p>&nbsp;&nbsp;&nbsp;&nbsp;- Manual Testing</p>
+                 <p>&nbsp;&nbsp;&nbsp;&nbsp;- Windows (advance user)</p>
+                 <p>&nbsp;&nbsp;&nbsp;&nbsp;- Unix (base commands)</p>
+                 <p>&nbsp;&nbsp;&nbsp;&nbsp;- Photoshop</p>
+                 <p>&nbsp;&nbsp;&nbsp;&nbsp;- HTML /CSS (base commands)</p>
+<div class = "line"></div>
+	</div>
+		 
+	<div id="clear">
+		 
+	</div>							
+		 
+</body>
+</html>
