@@ -100,16 +100,21 @@ color:#C0C0C0;
  
 }
 ul {
-    list-style: none;
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
 }
 
-ul li:before {
-    content:  "—";
-    position: relative;
-    left: -5px;
-    margin-left: 0,5%;
-    padding-bottom: 3px:;
-}
+
+
 
 </style>
 </head>
@@ -127,9 +132,9 @@ ul li:before {
 		 
 	<div id="menu">
     <img src='new.png'  
-      width="150" height="150"
-      hspace="25" align="left"
-      vspace="5"/>
+      width="130" height="130"
+      hspace="40" align="left"
+      vspace="10"/>
 
 <div id="text1">
 	<h1 align="center">Ревуцкий Сергей<div class = "line"></h1>
@@ -140,12 +145,15 @@ ul li:before {
           <p><span class="letter">танцевать</span></p>
           <p><span class="letter1">гулять</span></p>
 	
-                <h3 align="center"><u>Контакты:</u></h3>
+          <h3 align="center"><u>Контакты:</u></h3>      
 </div>
+          
                 <ul>
-                <li><a href="https://www.facebook.com/Tortolli/">Facebook</a></li>
-                <li><a href="https://www.google.com.ua/">Google</a></li>
-                </ul>		
+                <li>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/Tortolli/">Facebook</a></li>
+                <li>&nbsp;&nbsp;&nbsp;<a href="https://www.google.com.ua/">Google</a></li>
+                </ul>
+            
+                		
 </div>
 		 
 	<div id="content">
@@ -156,8 +164,8 @@ ul li:before {
                                </pre> 
                 <div class = "line0"></div>
 
+                 <ul class="dashed">
                  
-                 <ul>
                  <p><b>Soft skills:</b></p>
                  
                  <p><li>Manual Testing</li></p>
@@ -168,7 +176,7 @@ ul li:before {
                 </ul>
 
                      <div class = "line0"></div>
-                     <ul>
+                     <ul class="dashed">
                      <p><b>Обо мне:</b></p>
                      
                      	<p><li>не курю</li></p>
